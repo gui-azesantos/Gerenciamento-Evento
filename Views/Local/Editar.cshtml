@@ -1,0 +1,25 @@
+@model GerenciamentoEvento.DTO.LocalDTO;
+
+<h2>Edite o Local!</h2>
+
+<form class="form-horizontal" asp-controler="Local" asp-action="Atualizar" method="POST">
+
+    <input type="hidden" asp-for="Id">
+    
+    
+    <label asp-for="Nome" class="control-label"></label>
+    <input type="text" class="form-control" asp-for="Nome" >
+    <span asp-validation-for="Nome"></span>
+    
+
+    
+    <label asp-for="Endereco" class="control-label"></label>
+    <input type="text" class="form-control" asp-for="Endereco" >  
+    <span asp-validation-for="Endereco"></span>
+    
+  
+    <div class="form-group"></div>
+      <button class= "btn btn-success" type="submit">Atualizar</button>
+    </div>
+
+</form>

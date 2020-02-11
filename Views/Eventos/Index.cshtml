@@ -1,0 +1,93 @@
+@model IEnumerable<GerenciamentoEvento.Models.Evento>
+
+    <h2>Lista os Eventos</h2>
+
+<style>
+   
+</style>
+
+    <table class="table table-striped table-bordered " >
+        <thead   style="background-color:#6E3667; color:grey; text-align: center">
+            <th>
+            <a asp-action="Criar" asp-controller="Eventos" class="btn btn-success">Novo Evento</a> 
+            </th>
+            <th>
+            Nome
+            </th>
+            <th>
+            Capacidade
+            </th>
+            <th>
+             Data
+            </th>
+            <th>
+             Preço
+            </th>
+            <th>
+             Local
+            </th>
+            <th>
+             Gênero
+            </th>
+            <th>
+             
+            </th>
+        </thead>
+
+    
+<tbody>
+    @foreach(var eventos in Model)
+    {  
+        <tr>
+            <td>
+        <img src=@eventos.Imagem class="img-thumbnail " style="max-width: 300px;" >
+        </td>
+         <td>
+            @eventos.Nome 
+        </td>
+         <td>
+            @eventos.Capacidade 
+        </td>
+         <td>
+            @eventos.Data 
+        </td>
+         <td>
+            @eventos.Preco
+        </td>
+        <td>
+            @eventos.CasaDeShow.Nome
+        </td>
+        <td>
+    @if(@eventos.Estilo == "0")
+    {<p>Rock</p>
+        }else if(@eventos.Estilo == "1"){
+            <p>Pop</p>
+            }else if(@eventos.Estilo == "2"){
+                <p>Sertanejo</p>
+                }else if(@eventos.Estilo == "3"){
+                    <p>Samba</p>
+                    }else if(@eventos.Estilo == "4"){
+                        <p>Funk</p>
+                        }else if(@eventos.Estilo == "5"){
+                            <p>Forró</p>
+                            }else if(@eventos.Estilo == "6"){
+                                <p>Axé</p>
+                                }else if(@eventos.Estilo == "7"){
+                                    <p>Eletrônica</p>
+                                    }else if(@eventos.Estilo == "8"){
+                                    <p>Outro</p>
+
+            }
+
+
+        </td>
+       
+        <td>
+        <a href="/Eventos/Editar/@eventos.Id" class="btn btn-primary">Editar</a> 
+        <a href="/Eventos/Deletar/@eventos.Id" class="btn btn-danger">Deletar</a> 
+        </td>
+        </tr>
+       
+    }
+    </tbody>
+</table>

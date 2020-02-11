@@ -1,0 +1,55 @@
+@model IEnumerable<GerenciamentoEvento.Models.Evento>
+
+  
+
+ @foreach(var eventos in Model)
+    {  
+      
+<div class="card text-white " style="border-color:#6E3667; border-width: 20px;  font-size:25px">
+  <img class="card-img" src=@eventos.Imagem alt="Imagem do card">
+  <div class="card-img-overlay">
+    <h2 class="card-title" id="titulo" >@eventos.Nome</h2>
+    </div>
+     <div class="card-body" style="color: black;" >
+    <img class="img-thumbnail" src="https://img.olhardigital.com.br/uploads/acervo_imagens/2018/12/20181218065336.jpg" style="float: right; max-width: 400px;">
+     <p class="card-text"><strong>Local: </strong>@eventos.CasaDeShow.Nome</p>
+     <p class="card-text"><strong>Quatidade de Ingressos: </strong>@eventos.Capacidade</p>
+     <p class="card-text"><strong>Data: </strong>@eventos.Data</p>
+     <p class="card-text"><strong>Preço: </strong>@eventos.Preco.ToString("C")
+      @if(@eventos.Estilo == "0")
+    {
+    string genero = "Rock";
+     <p class="card-text"><strong>Estilo: </strong>@genero</p>
+        }else if(@eventos.Estilo == "1"){
+            string genero = "Pop";
+             <p class="card-text"><strong>Estilo: </strong>@genero</p>
+            }else if(@eventos.Estilo == "2"){
+                string genero = "Sertanejo";
+                 <p class="card-text"><strong>Estilo: </strong>@genero</p>
+                }else if(@eventos.Estilo == "3"){
+                    string genero = "Samba";
+                     <p class="card-text"><strong>Estilo: </strong>@genero</p>
+                    }else if(@eventos.Estilo == "4"){
+                     string genero = "Funk";
+                      <p class="card-text"><strong>Estilo: </strong>@genero</p>
+                        }else if(@eventos.Estilo == "5"){
+                          string genero = "Forró";
+                           <p class="card-text"><strong>Estilo: </strong>@genero</p>
+                            }else if(@eventos.Estilo == "6"){
+                             string genero = "Axé";
+                              <p class="card-text"><strong>Estilo: </strong>@genero</p>
+                                }else if(@eventos.Estilo == "7"){
+                                    string genero = "Eletrônica";
+                                     <p class="card-text"><strong>Estilo: </strong>@genero</p>
+                                     }else if(@eventos.Estilo == "8"){
+                                        string genero = "Outro";
+                                         <p class="card-text"><strong>Teste: </strong>@genero</p>
+                                    }
+    
+    <a href="#" class="btn btn-success">Comprar</a>
+  </div>
+    
+  </div>
+
+    }
+
