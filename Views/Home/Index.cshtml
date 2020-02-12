@@ -1,7 +1,17 @@
 ﻿@{
     ViewData["Title"] = "Home";
 }
-<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Monoton|Roboto&display=swap" rel="stylesheet">
+<style>
+
+.card-title{font-style:italic;}
+#icon{
+  align-content: center;
+  width: 150px;
+  height: 150px; margin-left: 25%; margin-top: 5%
+}
+
+
+</style>
 
 <script>
     $('.carousel').carousel({
@@ -29,7 +39,7 @@
   <div class="carousel-inner mw-100" >
 
     <div class="carousel-item active" id="slider">
-      <img class="d-block mw-100 img-fluid" src="https://www.curtamais.com.br/uploads/conteudos/ed8ee287d9bb41e90afd5f2bc7e89df2.jpeg" alt="Primeiro Slide">
+      <img class="d-block mw-100 img-fluid" src="https://cdn.wegow.com/media/events/los-alamos-beach-festival-2019/los-alamos-beach-festival-2019-1540199838.49.2560x1440.jpg" alt="Primeiro Slide">
     </div>
 
     <div class="carousel-item mw-100" id="slider">
@@ -51,7 +61,6 @@
   </a>
 </div>
 
-
 <div class="accordion" id="accordionExample">
   <div class="card" style="background-color: #6E3667; color:white;">
     <div class="card-header" id="headingOne">
@@ -61,10 +70,10 @@
         </button>
       </h5>
     </div>
-  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+  <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body"  style="background-color: whitesmoke; color: black;">
-        A Eventos.com é um site de compra de ingressos. Aqui você pode pode adquirir tickets capazes de te conceder experiências que jamais sairão da sua cabeça, 
-        igual aquela música chiclete do último carnaval.
+        A Eventos.com é um site de compra de ingressos. Aqui você pode pode adquirir tickets capazes de conceder experiências que jamais sairão da sua cabeça,igual
+         aquela música chiclete do último carnaval.
       </div>
     </div>
   </div>
@@ -75,34 +84,28 @@
 </div>
 </div>
 
-
-
-
-
-
 <div class="row" style="text-align: justify">
 <div class="card col-md-4" style="width: 18rem;" style="display:flex;justify-content:center;align-items:center;width:4px;">
-  <img class="card-img-top img-fluid" id="icon" src="https://d29fhpw069ctt2.cloudfront.net/icon/image/37740/preview.svg" style="max-width: 250px; text-align:center" >
+  <img class="card-img-top img-fluid" id="icon" src="https://image.flaticon.com/icons/svg/1067/1067090.svg"  >
   <div class="card-body">
-    <h5 class="card-title">Veja os shows disponiveis!</h5>
-    <p class="card-text">Descura sua nova experiência musical!<br>
-        Confira a lista de shows, seus locais e preços. </p>
-    <a href="#" class="btn btn-dark btn-lg" style="background-color: #6E3667 ;">Shows!</a>
+    <h5 class="card-title">Descura sua nova experiência musical!</h5>
+    <p class="card-text"><p>Confira a lista de shows, seus locais e preços.</p>
+    <a href="/Eventos/Home" class="btn btn-dark btn-lg" style="background-color: #6E3667 ;">Shows!</a>
   </div>
 </div>
 <div class="card col-md-4" style="width: 18rem;" >
-  <img class="card-img-top img-fluid" id="icon" src="https://d29fhpw069ctt2.cloudfront.net/icon/image/37798/preview.svg" style="max-width:250px;">
+  <img class="card-img-top img-fluid" id="icon" src="https://image.flaticon.com/icons/svg/812/812520.svg" >
   <div class="card-body">
     <h5 class="card-title">Crie sua Conta!</h5>
-    <p class="card-text">Crie sua conta e receba as últimas atualizações sobre todos os show de sua região além de descontos exclusivos.</p>
-    <a href="#" class="btn btn-dark btn-lg" style="background-color:#88D317;">Cadastre-se </a>
+    <p class="card-text">Crie sua conta e receba as últimas atualizações sobre todos os show de sua região, além de descontos exclusivos.</p>
+    <a href="/Identity/Account/Login" class="btn btn-dark btn-lg" style="background-color:#88D317;">Cadastre-se! </a>
   </div>
 </div>
 <div class="card col-md-4" style="width: 18rem;">
-  <img class="card-img-top img-fluid" id="icon" src="https://d29fhpw069ctt2.cloudfront.net/icon/image/38036/preview.svg" style="max-width: 400px;">
+  <img class="card-img-top img-fluid" id="icon" src="https://image.flaticon.com/icons/svg/2445/2445641.svg" >
   <div class="card-body">
     <h5 class="card-title">Ingressos</h5>
-    <p class="card-text">Aqui você encontra ingessos excluisos de todos os eventos mais balados do momento. Finalize sua compra e garanta seu espaço no próximo momento épico de sua vida.</p>
-    <a href="#" class="btn btn-dark btn-lg" style="background-color:#535353;" >Carrinho </a>
+    <p class="card-text">Aqui você encontra ingressos exclusivos dos eventos mais balados do momento. Finalize sua compra e garanta seu espaço no próximo momento épico de sua vida.</p>
+    <a href="#" class="btn btn-dark btn-lg" style="background-color:#535353;" >Carrinho >> </a>
   </div>
 </div>

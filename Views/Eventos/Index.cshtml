@@ -1,13 +1,15 @@
 @model IEnumerable<GerenciamentoEvento.Models.Evento>
-
-    <h2>Lista os Eventos</h2>
+@{
+    ViewData["Title"] = "Index";
+}
+    <h2>Lista de Eventos</h2>
 
 <style>
    
 </style>
 
     <table class="table table-striped table-bordered " >
-        <thead   style="background-color:#6E3667; color:grey; text-align: center">
+        <thead   style="font-family:Verdana; background-color:#6E3667; color:white; text-align: center">
             <th>
             <a asp-action="Criar" asp-controller="Eventos" class="btn btn-success">Novo Evento</a> 
             </th>
@@ -49,7 +51,7 @@
             @eventos.Capacidade 
         </td>
          <td>
-            @eventos.Data 
+            @eventos.Data.ToString("dd/MM/yyyy HH:mm") 
         </td>
          <td>
             @eventos.Preco

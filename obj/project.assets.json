@@ -8687,11 +8687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\GerenciamentoEvento.csproj",
+      "projectUniqueName": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\GerenciamentoEvento.csproj",
       "projectName": "GerenciamentoEvento",
-      "projectPath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\GerenciamentoEvento.csproj",
+      "projectPath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\GerenciamentoEvento.csproj",
       "packagesPath": "C:\\Users\\GEDO\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\obj\\",
+      "outputPath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\GEDO\\AppData\\Roaming\\NuGet\\NuGet.Config"

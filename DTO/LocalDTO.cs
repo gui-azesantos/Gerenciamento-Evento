@@ -4,13 +4,13 @@ namespace GerenciamentoEvento.DTO
 {
     public class LocalDTO
     {
-       //[Required]
+       [Required]
         public int Id { get; set; }
          
-       // [Required(ErrorMessage="O Nome é obrigatório.")]
+        [Required(ErrorMessage="O Nome é obrigatório.")]
         public string Nome { get; set; }
         
-        //[Required(ErrorMessage="O Endereço é obrigatório.")]
+        [Required(ErrorMessage="O Endereço é obrigatório.")]
         public string Endereco { get; set; }
     }
 }

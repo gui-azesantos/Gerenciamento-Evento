@@ -6,20 +6,23 @@
 #titulo{
     font-family: 'Monoton', cursive;
     font-size:48px
+    
 }
+
 #slider {
     height: 600px;
     overflow: hidden;
 }
 
-#icon{
-  height: 50%;
-}
+#icon{height: 50%;}
 
- th{text-align: center;}
+th{text-align: center;}
+
+label{margin-top: 20px;}
 
 
 </style>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -30,15 +33,14 @@
     <link rel="stylesheet" href="~/css/site.css" />
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Monoton|Roboto&display=swap" rel="stylesheet">
 
-    <style>
-        body{
-        background-color: whitesmoke;
-        font-family: 'Bebas Neue', cursive;
+  </head>
+
+<style>
+body{
+    background-color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
      }
-
-    </style>
-</head>
-
+</style>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
@@ -54,9 +56,7 @@
                           <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Eventos" asp-action="Home">Shows!</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Cliente" asp-action="Historico">Histórico</a>
-                        </li>
+                       
                         @if( SignInManager.IsSignedIn(User) && User.FindFirst("NomeCompleto").Value == "AdminCrud"){
                              <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Eventos" asp-action="Index">Eventos</a>

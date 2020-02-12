@@ -1,4 +1,11 @@
 @model GerenciamentoEvento.DTO.EventoDTO;
+@{
+    ViewData["Title"] = "Criar";
+}
+<style>
+ 
+</style>
+
 
 <h2>Crie um Evento!</h2>
 
@@ -14,20 +21,26 @@
   <div>
     <label asp-for="Capacidade" class="control-label"></label>
     <input type="number" class="form-control" asp-for="Capacidade" >
-    <span asp-validation-for="Nome"></span>
+    <span asp-validation-for="Capacidade"></span>
 </div>
+<div>
     <label asp-for="Data" class="control-label"></label>
     <input  class="form-control" asp-for="Data" >
-    <span asp-validation-for="Nome"></span>
+    <span asp-validation-for="Data"></span>
+</div>
 
+<div>
     <label asp-for="Preco" class="control-label">Preço</label>
     <input type="number" class="form-control" asp-for="Preco">
-    <span asp-validation-for="Nome"></span>
+    <span asp-validation-for="Preco"></span>
+</div>
 
+<div>
     <label asp-for="CasaDeShowID" class="control-label">Local</label>
     <select class="form-control" asp-for="CasaDeShowID" asp-items='@(new SelectList(@ViewBag.CasaDeShow,"Id","Nome"))'></select>
+</div>
 
-
+<div>
   <label asp-for="CasaDeShowID" class="control-label">Estilo</label>
   <select class="form-control" asp-for="Estilo">
     <option value="0">Rock</option>
@@ -37,16 +50,16 @@
     <option value="4">Funk</option>
     <option value="5">Forró</option>
     <option value="6">Axé</option>
-    <option value="7">Alternativo</option>
+    <option value="7">Eletrônica</option>
     <option value="8">Outro</option>
-      
+</select>
+</div>
 
-  </select>
-
+<div>
 <label asp-for="Imagem" class="control-label"></label>
     <input type="" class="form-control" asp-for="Imagem">
-    
-    <div class="form-group"></div>
+</div>
+    <div class="form-group">
       <button class= "btn btn-success" type="submit">Salvar</button>
     </div>
 

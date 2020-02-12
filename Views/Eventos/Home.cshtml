@@ -1,5 +1,7 @@
 @model IEnumerable<GerenciamentoEvento.Models.Evento>
-
+@{
+    ViewData["Title"] = "Shows";
+}
   
 
  @foreach(var eventos in Model)
@@ -10,12 +12,12 @@
   <div class="card-img-overlay">
     <h2 class="card-title" id="titulo" >@eventos.Nome</h2>
     </div>
-     <div class="card-body" style="color: black;" >
+     <div class="card-body" style="color: black; position:relative" >
     <img class="img-thumbnail" src="https://img.olhardigital.com.br/uploads/acervo_imagens/2018/12/20181218065336.jpg" style="float: right; max-width: 400px;">
      <p class="card-text"><strong>Local: </strong>@eventos.CasaDeShow.Nome</p>
      <p class="card-text"><strong>Quatidade de Ingressos: </strong>@eventos.Capacidade</p>
-     <p class="card-text"><strong>Data: </strong>@eventos.Data</p>
-     <p class="card-text"><strong>Preço: </strong>@eventos.Preco.ToString("C")
+     <p class="card-text"><strong>Data: </strong>@eventos.Data.ToString("dd/MM/yyyy HH:mm:ss")</p>
+     <p class="card-text"><strong>Preço: R</strong>@eventos.Preco.ToString("C")
       @if(@eventos.Estilo == "0")
     {
     string genero = "Rock";
@@ -43,10 +45,10 @@
                                      <p class="card-text"><strong>Estilo: </strong>@genero</p>
                                      }else if(@eventos.Estilo == "8"){
                                         string genero = "Outro";
-                                         <p class="card-text"><strong>Teste: </strong>@genero</p>
+                                         <p class="card-text"><strong>Estilo: </strong>@genero</p>
                                     }
     
-    <a href="#" class="btn btn-success">Comprar</a>
+    <a href="Venda/@eventos.Id" class="btn btn-success">Comprar</a>
   </div>
     
   </div>

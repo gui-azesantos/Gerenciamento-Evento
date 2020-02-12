@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\GerenciamentoEvento.csproj",
+  "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\GerenciamentoEvento.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20501,108 +20501,108 @@
   "RootNamespace": "GerenciamentoEvento",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Views\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Views\\Eventos\\Index.cshtml",
-      "TargetPath": "Views\\Eventos\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Views\\Eventos\\Home.cshtml",
-      "TargetPath": "Views\\Eventos\\Home.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Views\\Local\\Criar.cshtml",
-      "TargetPath": "Views\\Local\\Criar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Views\\Eventos\\Criar.cshtml",
-      "TargetPath": "Views\\Eventos\\Criar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Views\\Local\\Editar.cshtml",
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Views\\Local\\Editar.cshtml",
       "TargetPath": "Views\\Local\\Editar.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Views\\Eventos\\Editar.cshtml",
-      "TargetPath": "Views\\Eventos\\Editar.cshtml",
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Views\\Local\\Criar.cshtml",
+      "TargetPath": "Views\\Local\\Criar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Views\\Eventos\\Index.cshtml",
+      "TargetPath": "Views\\Eventos\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Views\\Local\\Index.cshtml",
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Views\\Eventos\\Editar.cshtml",
+      "TargetPath": "Views\\Eventos\\Editar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Views\\Local\\Index.cshtml",
       "TargetPath": "Views\\Local\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Gerenciamento-Eventos-master\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Views\\Eventos\\Criar.cshtml",
+      "TargetPath": "Views\\Eventos\\Criar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Views\\Eventos\\Home.cshtml",
+      "TargetPath": "Views\\Eventos\\Home.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GEDO\\Desktop\\Visual Studio Code\\Gerenciamento-Eventos\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
       "FileKind": "mvc"
     }
   ],

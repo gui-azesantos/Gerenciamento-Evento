@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace GerenciamentoEvento.Controllers {
-    [Authorize]
+    
     public class EventosController : Controller {
         private readonly ApplicationDbContext database;
 
@@ -26,6 +26,8 @@ namespace GerenciamentoEvento.Controllers {
             return View (eventos);
         }
 
+         [Authorize]
+
         public async Task<IActionResult> Index () {
             var user = await _userManager.GetUserAsync (User);
             var eventos = database.Evento.Include (e => e.CasaDeShow).ToList ();
@@ -33,10 +35,11 @@ namespace GerenciamentoEvento.Controllers {
             if (user.Email == "admin@gmail.com") {
                 return View (eventos);
             } else {
-                return Unauthorized();
+                return Unauthorized ();
             }
         }
 
+        [Authorize]
         public async Task<IActionResult> Criar () {
             ViewBag.CasaDeShow = database.Local.ToList ();
             var user = await _userManager.GetUserAsync (User);
@@ -44,10 +47,10 @@ namespace GerenciamentoEvento.Controllers {
             if (user.Email == "admin@gmail.com") {
                 return View ();
             } else {
-                return Unauthorized();
+                return Unauthorized ();
             }
         }
-
+        [Authorize]
         public async Task<IActionResult> Editar (int id) {
             var user = await _userManager.GetUserAsync (User);
             //Condição para validar Admin
@@ -70,7 +73,7 @@ namespace GerenciamentoEvento.Controllers {
                     return View ("Editar");
                 }
             } else {
-                return Unauthorized();
+                return Unauthorized ();
             }
         }
 
@@ -128,7 +131,7 @@ namespace GerenciamentoEvento.Controllers {
                 database.SaveChanges ();
                 return RedirectToAction ("Index");
             } else {
-                return Unauthorized();
+                return Unauthorized ();
             }
         }
 
